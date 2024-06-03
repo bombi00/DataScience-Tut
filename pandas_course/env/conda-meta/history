@@ -164,3 +164,10 @@
 +defaults/win-64::zlib-1.2.13-h8cc25b3_1
 +defaults/win-64::zstd-1.5.5-hd43e919_2
 # update specs: ['jupyter', 'matplotlib', 'numpy', 'pandas']
+==> 2024-05-30 21:39:58 <==
+# cmd: C:\Users\filip\miniconda3\Scripts\conda-script.py install --yes --prefix c:\Users\filip\Desktop\DataScience-Tut\pandas_course\env faker
+# conda version: 24.3.0
+-defaults/win-64::openssl-3.0.13-h2bbff1b_1
++defaults/win-64::faker-24.14.1-py312haa95532_0
++defaults/win-64::openssl-3.0.13-h2bbff1b_2
+# update specs: ['faker']

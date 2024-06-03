@@ -1,0 +1,12 @@
+prefix=C:/Users/filip/Desktop/DataScience-Tut/Scikit/env/Library
+exec_prefix=C:/Users/filip/Desktop/DataScience-Tut/Scikit/env/Library
+libdir=C:/Users/filip/Desktop/DataScience-Tut/Scikit/env/Library/lib
+includedir=C:/Users/filip/Desktop/DataScience-Tut/Scikit/env/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz
+Cflags: -I${includedir}
